@@ -1,0 +1,2 @@
+echo "print('Bonjour le monde')"
+print('Bonjour le monde')
