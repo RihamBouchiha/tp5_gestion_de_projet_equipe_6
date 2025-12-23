@@ -1,2 +1,1 @@
-echo "print('Bonjour le monde')"
-print('Bonjour le monde')
+echo "print('Bonjour le monde')" > main.py
