@@ -18,4 +18,4 @@ jobs:
 
       - name: Exécuter les tests
         run: |
-          python -m pytest -v ./tests/
+          pytest ./tests/
