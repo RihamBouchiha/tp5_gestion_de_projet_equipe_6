@@ -6,13 +6,16 @@ jobs:
     steps:
       - name: Checkout du code
         uses: actions/checkout@v2
+
       - name: Configurer Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.x'
+          python-version: "3.x"
+
       - name: Installer les dépendances
         run: |
           pip install pytest
+
       - name: Exécuter les tests
         run: |
-          pytest tests/
+          python -m pytest -v ./tests/
