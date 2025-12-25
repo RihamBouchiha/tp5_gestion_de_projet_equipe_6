@@ -18,4 +18,4 @@ jobs:
 
       - name: Exécuter les tests
         run: |
-          pytest tests/
+          pytest ./tests/
